@@ -1,26 +1,44 @@
 VOIDTK void
 IDENFR no_const_func
 LPARENT (
+<参数表>
 RPARENT )
 LBRACE {
 INTTK int
 IDENFR i
+<变量定义>
 SEMICN ;
-SEMICN ;
-SEMICN ;
+<变量说明>
+<语句>
+<语句>
 IDENFR i
 ASSIGN =
 INTCON 3
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<赋值语句>
 SEMICN ;
+<语句>
 PRINTFTK printf
 LPARENT (
 IDENFR i
+<因子>
+<项>
+<表达式>
 RPARENT )
+<写语句>
 SEMICN ;
-RBRACE }
+<语句>
+<语句列>
+<复合语句>
+<无返回值函数定义>
 VOIDTK void
 IDENFR no_var_func
 LPARENT (
+<参数表>
 RPARENT )
 LBRACE {
 CONSTTK const
@@ -28,16 +46,28 @@ INTTK int
 IDENFR t
 ASSIGN =
 INTCON 10
+<无符号整数>
+<整数>
+<常量定义>
 SEMICN ;
+<常量说明>
 PRINTFTK printf
 LPARENT (
 IDENFR t
+<因子>
+<项>
+<表达式>
 RPARENT )
+<写语句>
 SEMICN ;
-RBRACE }
+<语句>
+<语句列>
+<复合语句>
+<无返回值函数定义>
 VOIDTK void
 IDENFR no_sentence_func
 LPARENT (
+<参数表>
 RPARENT )
 LBRACE {
 CONSTTK const
@@ -45,47 +75,73 @@ INTTK int
 IDENFR t
 ASSIGN =
 INTCON 10
+<无符号整数>
+<整数>
+<常量定义>
 SEMICN ;
+<常量说明>
 INTTK int
 IDENFR c
-COMMA ,
 IDENFR d
+<变量定义>
 SEMICN ;
-RBRACE }
+<变量说明>
+<语句列>
+<复合语句>
+<无返回值函数定义>
 VOIDTK void
 IDENFR nothing_func
 LPARENT (
+<参数表>
 RPARENT )
 LBRACE {
-SEMICN ;
-SEMICN ;
-SEMICN ;
-RBRACE }
+<语句>
+<语句>
+<语句>
+<语句列>
+<复合语句>
+<无返回值函数定义>
 VOIDTK void
 IDENFR nothing_func1
 LPARENT (
+<参数表>
 RPARENT )
 LBRACE {
-SEMICN ;
-RBRACE }
+<语句>
+<语句列>
+<复合语句>
+<无返回值函数定义>
 INTTK int
 IDENFR scan
+<声明头部>
 LPARENT (
 CHARTK char
 IDENFR a
+<参数表>
 RPARENT )
 LBRACE {
 RETURNTK return
 LPARENT (
 IDENFR a
+<因子>
+<项>
 MINU -
 CHARCON 0
+<因子>
+<项>
+<表达式>
 RPARENT )
+<返回语句>
 SEMICN ;
+<语句>
+<语句列>
+<复合语句>
 RBRACE }
+<有返回值函数定义>
 VOIDTK void
 IDENFR error_judge_func1
 LPARENT (
+<参数表>
 RPARENT )
 LBRACE {
 CONSTTK const
@@ -93,9 +149,15 @@ INTTK int
 IDENFR c
 ASSIGN =
 INTCON 3
+<无符号整数>
+<整数>
+<常量定义>
 SEMICN ;
-SEMICN ;
-RBRACE }
+<常量说明>
+<语句>
+<语句列>
+<复合语句>
+<无返回值函数定义>
 VOIDTK void
 MAINTK main
 LPARENT (
@@ -103,31 +165,59 @@ RPARENT )
 LBRACE {
 IDENFR no_const_func
 LPARENT (
+<值参数表>
 RPARENT )
+<无返回值函数调用语句>
 SEMICN ;
+<语句>
 IDENFR no_var_func
 LPARENT (
+<值参数表>
 RPARENT )
+<无返回值函数调用语句>
 SEMICN ;
+<语句>
 IDENFR no_sentence_func
 LPARENT (
+<值参数表>
 RPARENT )
+<无返回值函数调用语句>
 SEMICN ;
+<语句>
 IDENFR nothing_func
 LPARENT (
+<值参数表>
 RPARENT )
+<无返回值函数调用语句>
 SEMICN ;
+<语句>
 IDENFR nothing_func1
 LPARENT (
+<值参数表>
 RPARENT )
+<无返回值函数调用语句>
 SEMICN ;
+<语句>
 IDENFR scan
 LPARENT (
 CHARCON d
+<因子>
+<项>
+<表达式>
+<值参数表>
 RPARENT )
+<有返回值函数调用语句>
 SEMICN ;
+<语句>
 IDENFR error_judge_func1
 LPARENT (
+<值参数表>
 RPARENT )
+<无返回值函数调用语句>
 SEMICN ;
+<语句>
+<语句列>
+<复合语句>
 RBRACE }
+<主函数>
+<程序>

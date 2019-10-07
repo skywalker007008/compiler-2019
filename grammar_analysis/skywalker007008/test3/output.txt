@@ -3,440 +3,937 @@ INTTK int
 IDENFR max_loop
 ASSIGN =
 INTCON 5
+<无符号整数>
+<整数>
+<常量定义>
 SEMICN ;
 CONSTTK const
 INTTK int
 IDENFR max_range
 ASSIGN =
 INTCON 10
+<无符号整数>
+<整数>
+<常量定义>
 SEMICN ;
+<常量说明>
 VOIDTK void
 IDENFR test_while
 LPARENT (
+<参数表>
 RPARENT )
 LBRACE {
 INTTK int
 IDENFR i
-COMMA ,
 IDENFR j
+<变量定义>
 SEMICN ;
+<变量说明>
 IDENFR i
 ASSIGN =
 INTCON 0
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<赋值语句>
 SEMICN ;
+<语句>
 WHILETK while
 LPARENT (
 IDENFR i
+<因子>
+<项>
+<表达式>
 LSS <
 IDENFR max_loop
+<因子>
+<项>
+<表达式>
+<条件>
 RPARENT )
 LBRACE {
 PRINTFTK printf
 LPARENT (
 IDENFR i
+<因子>
+<项>
+<表达式>
 RPARENT )
+<写语句>
 SEMICN ;
+<语句>
 IDENFR i
 ASSIGN =
 IDENFR i
+<因子>
+<项>
 PLUS +
 INTCON 1
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<赋值语句>
 SEMICN ;
+<语句>
+<语句列>
 RBRACE }
+<语句>
+<循环语句>
+<语句>
 WHILETK while
 LPARENT (
 IDENFR i
+<因子>
+<项>
+<表达式>
 LSS <
 IDENFR max_range
+<因子>
+<项>
+<表达式>
+<条件>
 RPARENT )
-SEMICN ;
+<语句>
+<循环语句>
+<语句>
 PRINTFTK printf
 LPARENT (
 IDENFR i
+<因子>
+<项>
+<表达式>
 RPARENT )
+<写语句>
 SEMICN ;
+<语句>
 IDENFR i
 ASSIGN =
 INTCON 0
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<赋值语句>
 SEMICN ;
+<语句>
 WHILETK while
 LPARENT (
 IDENFR i
+<因子>
+<项>
+<表达式>
 LSS <
 IDENFR max_range
+<因子>
+<项>
+<表达式>
+<条件>
 RPARENT )
 LBRACE {
 IDENFR j
 ASSIGN =
 INTCON 0
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<赋值语句>
 SEMICN ;
+<语句>
 WHILETK while
 LPARENT (
 IDENFR j
+<因子>
+<项>
+<表达式>
 LSS <
 IDENFR max_loop
+<因子>
+<项>
+<表达式>
+<条件>
 RPARENT )
 LBRACE {
 PRINTFTK printf
 LPARENT (
 IDENFR j
+<因子>
+<项>
+<表达式>
 RPARENT )
+<写语句>
 SEMICN ;
+<语句>
 IDENFR j
 ASSIGN =
 IDENFR j
+<因子>
+<项>
 PLUS +
 INTCON 1
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<赋值语句>
 SEMICN ;
+<语句>
+<语句列>
 RBRACE }
+<语句>
+<循环语句>
+<语句>
 IDENFR i
 ASSIGN =
 IDENFR i
+<因子>
+<项>
 PLUS +
 INTCON 1
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<赋值语句>
 SEMICN ;
+<语句>
+<语句列>
 RBRACE }
+<语句>
+<循环语句>
+<语句>
 IDENFR i
 ASSIGN =
 INTCON 0
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<赋值语句>
 SEMICN ;
+<语句>
 WHILETK while
 LPARENT (
 IDENFR i
+<因子>
+<项>
+<表达式>
 LSS <
 IDENFR max_loop
+<因子>
+<项>
+<表达式>
+<条件>
 RPARENT )
 FORTK for
 LPARENT (
 IDENFR j
 ASSIGN =
 IDENFR i
+<因子>
+<项>
+<表达式>
 SEMICN ;
 IDENFR j
+<因子>
+<项>
+<表达式>
 LSS <
 IDENFR max_range
+<因子>
+<项>
+<表达式>
+<条件>
 SEMICN ;
 IDENFR j
 ASSIGN =
 IDENFR j
 PLUS +
 INTCON 1
+<步长>
 RPARENT )
 IDENFR i
 ASSIGN =
 IDENFR j
+<因子>
+<项>
+<表达式>
+<赋值语句>
 SEMICN ;
+<语句>
+<循环语句>
+<语句>
+<循环语句>
+<语句>
 IDENFR i
 ASSIGN =
 INTCON 5
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<赋值语句>
 SEMICN ;
+<语句>
 WHILETK while
 LPARENT (
 IDENFR i
+<因子>
+<项>
+<表达式>
 LSS <
 IDENFR max_loop
+<因子>
+<项>
+<表达式>
+<条件>
 RPARENT )
 IFTK if
-LPARENT (
 IDENFR i
+<因子>
+<项>
+<表达式>
 EQL ==
 INTCON 5
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<条件>
 RPARENT )
 IDENFR i
 ASSIGN =
 IDENFR i
+<因子>
+<项>
 PLUS +
 INTCON 5
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<赋值语句>
 SEMICN ;
-RBRACE }
+<语句>
+<条件语句>
+<语句>
+<循环语句>
+<语句>
+<语句列>
+<复合语句>
+<无返回值函数定义>
 VOIDTK void
 IDENFR test_dowhile
 LPARENT (
+<参数表>
 RPARENT )
 LBRACE {
 INTTK int
 IDENFR i
-COMMA ,
 IDENFR j
+<变量定义>
 SEMICN ;
+<变量说明>
 IDENFR i
 ASSIGN =
 INTCON 0
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<赋值语句>
 SEMICN ;
+<语句>
 DOTK do
 LBRACE {
-SEMICN ;
+<语句>
+<语句列>
 RBRACE }
+<语句>
 WHILETK while
 LPARENT (
 INTCON 0
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<条件>
 RPARENT )
+<循环语句>
+<语句>
 DOTK do
 LBRACE {
 IDENFR i
 ASSIGN =
 IDENFR i
+<因子>
+<项>
 PLUS +
 INTCON 1
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<赋值语句>
 SEMICN ;
+<语句>
+<语句列>
 RBRACE }
+<语句>
 WHILETK while
 LPARENT (
 IDENFR i
+<因子>
+<项>
 MINU -
 INTCON 10
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<条件>
 RPARENT )
+<循环语句>
+<语句>
 DOTK do
-SEMICN ;
+<语句>
 WHILETK while
 LPARENT (
 INTCON 0
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<条件>
 RPARENT )
+<循环语句>
+<语句>
 DOTK do
 DOTK do
-SEMICN ;
+<语句>
 WHILETK while
 LPARENT (
 INTCON 0
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<条件>
 RPARENT )
+<循环语句>
+<语句>
 WHILETK while
 LPARENT (
 INTCON 0
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<条件>
 RPARENT )
+<循环语句>
+<语句>
 DOTK do
 FORTK for
 LPARENT (
 IDENFR i
 ASSIGN =
 INTCON 0
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
 SEMICN ;
 IDENFR i
+<因子>
+<项>
+<表达式>
 LSS <
 IDENFR max_loop
+<因子>
+<项>
+<表达式>
+<条件>
 SEMICN ;
 IDENFR i
 ASSIGN =
 IDENFR i
 PLUS +
 INTCON 1
+<步长>
 RPARENT )
 PRINTFTK printf
 LPARENT (
 IDENFR i
+<因子>
+<项>
+<表达式>
 RPARENT )
+<写语句>
 SEMICN ;
+<语句>
+<循环语句>
+<语句>
 WHILETK while
 LPARENT (
 IDENFR i
+<因子>
+<项>
+<表达式>
 LSS <
 IDENFR max_loop
+<因子>
+<项>
+<表达式>
+<条件>
 RPARENT )
+<循环语句>
+<语句>
 DOTK do
 WHILETK while
 LPARENT (
 INTCON 0
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<条件>
 RPARENT )
-SEMICN ;
+<语句>
+<循环语句>
+<语句>
 WHILETK while
 LPARENT (
 INTCON 0
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<条件>
 RPARENT )
+<循环语句>
+<语句>
 DOTK do
 FORTK for
 LPARENT (
 IDENFR i
 ASSIGN =
 INTCON 0
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
 SEMICN ;
 IDENFR i
+<因子>
+<项>
+<表达式>
 LSS <
 IDENFR max_loop
+<因子>
+<项>
+<表达式>
+<条件>
 SEMICN ;
 IDENFR i
 ASSIGN =
 IDENFR i
 PLUS +
 INTCON 1
+<步长>
 RPARENT )
 DOTK do
-SEMICN ;
+<语句>
 WHILETK while
 LPARENT (
 INTCON 0
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<条件>
 RPARENT )
+<循环语句>
+<语句>
+<循环语句>
+<语句>
 WHILETK while
 LPARENT (
 INTCON 0
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<条件>
 RPARENT )
-RBRACE }
+<循环语句>
+<语句>
+<语句列>
+<复合语句>
+<无返回值函数定义>
 VOIDTK void
 IDENFR test_for
 LPARENT (
+<参数表>
 RPARENT )
 LBRACE {
 INTTK int
 IDENFR i
-COMMA ,
 IDENFR j
+<变量定义>
 SEMICN ;
+<变量说明>
 IDENFR i
 ASSIGN =
 INTCON 0
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<赋值语句>
 SEMICN ;
+<语句>
 IDENFR j
 ASSIGN =
 INTCON 0
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<赋值语句>
 SEMICN ;
+<语句>
 FORTK for
 LPARENT (
 IDENFR i
 ASSIGN =
 INTCON 0
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
 SEMICN ;
 IDENFR i
+<因子>
+<项>
+<表达式>
 LSS <
 IDENFR max_loop
+<因子>
+<项>
+<表达式>
+<条件>
 SEMICN ;
 IDENFR i
 ASSIGN =
 IDENFR i
 PLUS +
 INTCON 1
+<步长>
 RPARENT )
-SEMICN ;
+<语句>
+<循环语句>
+<语句>
 FORTK for
 LPARENT (
 IDENFR i
 ASSIGN =
 INTCON 0
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
 SEMICN ;
 IDENFR i
+<因子>
+<项>
+<表达式>
 LSS <
 IDENFR max_loop
+<因子>
+<项>
+<表达式>
+<条件>
 SEMICN ;
 IDENFR i
 ASSIGN =
 IDENFR i
 PLUS +
 INTCON 1
+<步长>
 RPARENT )
 WHILETK while
 LPARENT (
 INTCON 0
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<条件>
 RPARENT )
-SEMICN ;
+<语句>
+<循环语句>
+<语句>
+<循环语句>
+<语句>
 FORTK for
 LPARENT (
 IDENFR i
 ASSIGN =
 IDENFR max_loop
+<因子>
+<项>
+<表达式>
 SEMICN ;
 IDENFR i
+<因子>
+<项>
+<表达式>
 GRE >
 INTCON 0
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<条件>
 SEMICN ;
 IDENFR i
 ASSIGN =
 IDENFR i
 MINU -
 INTCON 1
+<步长>
 RPARENT )
 FORTK for
 LPARENT (
 IDENFR j
 ASSIGN =
 INTCON 0
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
 SEMICN ;
 IDENFR j
+<因子>
+<项>
+<表达式>
 LSS <
 IDENFR max_loop
+<因子>
+<项>
+<表达式>
+<条件>
 SEMICN ;
 IDENFR j
 ASSIGN =
 IDENFR j
 PLUS +
 INTCON 1
+<步长>
 RPARENT )
 WHILETK while
 LPARENT (
 INTCON 0
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<条件>
 RPARENT )
-SEMICN ;
+<语句>
+<循环语句>
+<语句>
+<循环语句>
+<语句>
+<循环语句>
+<语句>
 FORTK for
 LPARENT (
 IDENFR i
 ASSIGN =
 INTCON 0
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
 SEMICN ;
 IDENFR i
+<因子>
+<项>
+<表达式>
 LSS <
 IDENFR max_loop
+<因子>
+<项>
+<表达式>
+<条件>
 SEMICN ;
 IDENFR i
 ASSIGN =
 IDENFR i
 PLUS +
 INTCON 1
+<步长>
 RPARENT )
 DOTK do
-SEMICN ;
+<语句>
 WHILETK while
 LPARENT (
 INTCON 0
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<条件>
 RPARENT )
+<循环语句>
+<语句>
+<循环语句>
+<语句>
 FORTK for
 LPARENT (
 IDENFR i
 ASSIGN =
 INTCON 0
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
 SEMICN ;
 IDENFR i
+<因子>
+<项>
+<表达式>
 LSS <
 IDENFR max_loop
+<因子>
+<项>
+<表达式>
+<条件>
 SEMICN ;
 IDENFR i
 ASSIGN =
 IDENFR i
 PLUS +
 INTCON 1
+<步长>
 RPARENT )
 DOTK do
 WHILETK while
 LPARENT (
 INTCON 0
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<条件>
 RPARENT )
-SEMICN ;
+<语句>
+<循环语句>
+<语句>
 WHILETK while
 LPARENT (
 IDENFR i
+<因子>
+<项>
+<表达式>
 GEQ >=
 INTCON 0
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<条件>
 RPARENT )
+<循环语句>
+<语句>
+<循环语句>
+<语句>
 FORTK for
 LPARENT (
 IDENFR i
 ASSIGN =
 INTCON 0
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
 SEMICN ;
 IDENFR i
+<因子>
+<项>
+<表达式>
 LSS <
 IDENFR max_loop
+<因子>
+<项>
+<表达式>
+<条件>
 SEMICN ;
 IDENFR i
 ASSIGN =
 IDENFR i
 PLUS +
 INTCON 1
+<步长>
 RPARENT )
 PRINTFTK printf
 LPARENT (
 STRCON test_loop
+<字符串>
 RPARENT )
+<写语句>
 SEMICN ;
-RBRACE }
+<语句>
+<循环语句>
+<语句>
+<语句列>
+<复合语句>
+<无返回值函数定义>
 VOIDTK void
 IDENFR test_condition
 LPARENT (
+<参数表>
 RPARENT )
 LBRACE {
 CONSTTK const
@@ -444,69 +941,132 @@ INTTK int
 IDENFR int_0
 ASSIGN =
 INTCON 0
+<无符号整数>
+<整数>
+<常量定义>
 SEMICN ;
 CONSTTK const
 INTTK int
 IDENFR int_1
 ASSIGN =
 INTCON 1
+<无符号整数>
+<整数>
+<常量定义>
 SEMICN ;
 CONSTTK const
 INTTK int
 IDENFR int_00
 ASSIGN =
 INTCON 0
+<无符号整数>
+<整数>
+<常量定义>
 SEMICN ;
+<常量说明>
 IFTK if
-LPARENT (
 IDENFR int_0
+<因子>
+<项>
+<表达式>
 LEQ <=
 IDENFR int_00
+<因子>
+<项>
+<表达式>
+<条件>
 RPARENT )
 LBRACE {
 PRINTFTK printf
 LPARENT (
 STRCON 1
+<字符串>
 RPARENT )
+<写语句>
 SEMICN ;
+<语句>
+<语句列>
 RBRACE }
+<语句>
+<条件语句>
+<语句>
 IFTK if
-LPARENT (
 IDENFR int_0
+<因子>
+<项>
+<表达式>
 LEQ <=
 IDENFR int_00
+<因子>
+<项>
+<表达式>
+<条件>
 RPARENT )
 LBRACE {
 RETURNTK return
+<返回语句>
 SEMICN ;
+<语句>
+<语句列>
 RBRACE }
+<语句>
+<条件语句>
+<语句>
 IFTK if
-LPARENT (
 IDENFR int_1
+<因子>
+<项>
+<表达式>
 GRE >
 IDENFR int_00
+<因子>
+<项>
+<表达式>
+<条件>
 RPARENT )
 LBRACE {
 PRINTFTK printf
 LPARENT (
 STRCON 1
+<字符串>
 RPARENT )
+<写语句>
 SEMICN ;
+<语句>
+<语句列>
 RBRACE }
+<语句>
+<条件语句>
+<语句>
 IFTK if
-LPARENT (
 IDENFR int_1
+<因子>
+<项>
+<表达式>
 GEQ >=
 IDENFR int_00
+<因子>
+<项>
+<表达式>
+<条件>
 RPARENT )
 LBRACE {
 PRINTFTK printf
 LPARENT (
 STRCON 1
+<字符串>
 RPARENT )
+<写语句>
 SEMICN ;
+<语句>
+<语句列>
 RBRACE }
-RBRACE }
+<语句>
+<条件语句>
+<语句>
+<语句列>
+<复合语句>
+<无返回值函数定义>
 VOIDTK void
 MAINTK main
 LPARENT (
@@ -514,14 +1074,27 @@ RPARENT )
 LBRACE {
 IDENFR test_while
 LPARENT (
+<值参数表>
 RPARENT )
+<无返回值函数调用语句>
 SEMICN ;
+<语句>
 IDENFR test_dowhile
 LPARENT (
+<值参数表>
 RPARENT )
+<无返回值函数调用语句>
 SEMICN ;
+<语句>
 IDENFR test_for
 LPARENT (
+<值参数表>
 RPARENT )
+<无返回值函数调用语句>
 SEMICN ;
+<语句>
+<语句列>
+<复合语句>
 RBRACE }
+<主函数>
+<程序>
