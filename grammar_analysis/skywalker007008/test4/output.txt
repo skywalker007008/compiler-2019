@@ -9,7 +9,9 @@ IDENFR i
 <变量定义>
 SEMICN ;
 <变量说明>
+SEMICN ;
 <语句>
+SEMICN ;
 <语句>
 IDENFR i
 ASSIGN =
@@ -34,6 +36,7 @@ SEMICN ;
 <语句>
 <语句列>
 <复合语句>
+RBRACE }
 <无返回值函数定义>
 VOIDTK void
 IDENFR no_var_func
@@ -63,6 +66,7 @@ SEMICN ;
 <语句>
 <语句列>
 <复合语句>
+RBRACE }
 <无返回值函数定义>
 VOIDTK void
 IDENFR no_sentence_func
@@ -82,12 +86,14 @@ SEMICN ;
 <常量说明>
 INTTK int
 IDENFR c
+COMMA ,
 IDENFR d
 <变量定义>
 SEMICN ;
 <变量说明>
 <语句列>
 <复合语句>
+RBRACE }
 <无返回值函数定义>
 VOIDTK void
 IDENFR nothing_func
@@ -95,11 +101,15 @@ LPARENT (
 <参数表>
 RPARENT )
 LBRACE {
+SEMICN ;
 <语句>
+SEMICN ;
 <语句>
+SEMICN ;
 <语句>
 <语句列>
 <复合语句>
+RBRACE }
 <无返回值函数定义>
 VOIDTK void
 IDENFR nothing_func1
@@ -107,9 +117,11 @@ LPARENT (
 <参数表>
 RPARENT )
 LBRACE {
+SEMICN ;
 <语句>
 <语句列>
 <复合语句>
+RBRACE }
 <无返回值函数定义>
 INTTK int
 IDENFR scan
@@ -154,9 +166,11 @@ INTCON 3
 <常量定义>
 SEMICN ;
 <常量说明>
+SEMICN ;
 <语句>
 <语句列>
 <复合语句>
+RBRACE }
 <无返回值函数定义>
 VOIDTK void
 MAINTK main

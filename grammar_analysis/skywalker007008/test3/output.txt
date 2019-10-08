@@ -25,6 +25,7 @@ RPARENT )
 LBRACE {
 INTTK int
 IDENFR i
+COMMA ,
 IDENFR j
 <变量定义>
 SEMICN ;
@@ -97,6 +98,7 @@ IDENFR max_range
 <表达式>
 <条件>
 RPARENT )
+SEMICN ;
 <语句>
 <循环语句>
 <语句>
@@ -259,6 +261,7 @@ ASSIGN =
 IDENFR j
 PLUS +
 INTCON 1
+<无符号整数>
 <步长>
 RPARENT )
 IDENFR i
@@ -299,6 +302,7 @@ IDENFR max_loop
 <条件>
 RPARENT )
 IFTK if
+LPARENT (
 IDENFR i
 <因子>
 <项>
@@ -333,6 +337,7 @@ SEMICN ;
 <语句>
 <语句列>
 <复合语句>
+RBRACE }
 <无返回值函数定义>
 VOIDTK void
 IDENFR test_dowhile
@@ -342,6 +347,7 @@ RPARENT )
 LBRACE {
 INTTK int
 IDENFR i
+COMMA ,
 IDENFR j
 <变量定义>
 SEMICN ;
@@ -359,6 +365,7 @@ SEMICN ;
 <语句>
 DOTK do
 LBRACE {
+SEMICN ;
 <语句>
 <语句列>
 RBRACE }
@@ -412,6 +419,7 @@ RPARENT )
 <循环语句>
 <语句>
 DOTK do
+SEMICN ;
 <语句>
 WHILETK while
 LPARENT (
@@ -427,6 +435,7 @@ RPARENT )
 <语句>
 DOTK do
 DOTK do
+SEMICN ;
 <语句>
 WHILETK while
 LPARENT (
@@ -480,6 +489,7 @@ ASSIGN =
 IDENFR i
 PLUS +
 INTCON 1
+<无符号整数>
 <步长>
 RPARENT )
 PRINTFTK printf
@@ -520,6 +530,7 @@ INTCON 0
 <表达式>
 <条件>
 RPARENT )
+SEMICN ;
 <语句>
 <循环语句>
 <语句>
@@ -563,9 +574,11 @@ ASSIGN =
 IDENFR i
 PLUS +
 INTCON 1
+<无符号整数>
 <步长>
 RPARENT )
 DOTK do
+SEMICN ;
 <语句>
 WHILETK while
 LPARENT (
@@ -595,6 +608,7 @@ RPARENT )
 <语句>
 <语句列>
 <复合语句>
+RBRACE }
 <无返回值函数定义>
 VOIDTK void
 IDENFR test_for
@@ -604,6 +618,7 @@ RPARENT )
 LBRACE {
 INTTK int
 IDENFR i
+COMMA ,
 IDENFR j
 <变量定义>
 SEMICN ;
@@ -657,8 +672,10 @@ ASSIGN =
 IDENFR i
 PLUS +
 INTCON 1
+<无符号整数>
 <步长>
 RPARENT )
+SEMICN ;
 <语句>
 <循环语句>
 <语句>
@@ -689,6 +706,7 @@ ASSIGN =
 IDENFR i
 PLUS +
 INTCON 1
+<无符号整数>
 <步长>
 RPARENT )
 WHILETK while
@@ -701,6 +719,7 @@ INTCON 0
 <表达式>
 <条件>
 RPARENT )
+SEMICN ;
 <语句>
 <循环语句>
 <语句>
@@ -733,6 +752,7 @@ ASSIGN =
 IDENFR i
 MINU -
 INTCON 1
+<无符号整数>
 <步长>
 RPARENT )
 FORTK for
@@ -762,6 +782,7 @@ ASSIGN =
 IDENFR j
 PLUS +
 INTCON 1
+<无符号整数>
 <步长>
 RPARENT )
 WHILETK while
@@ -774,6 +795,7 @@ INTCON 0
 <表达式>
 <条件>
 RPARENT )
+SEMICN ;
 <语句>
 <循环语句>
 <语句>
@@ -808,9 +830,11 @@ ASSIGN =
 IDENFR i
 PLUS +
 INTCON 1
+<无符号整数>
 <步长>
 RPARENT )
 DOTK do
+SEMICN ;
 <语句>
 WHILETK while
 LPARENT (
@@ -853,6 +877,7 @@ ASSIGN =
 IDENFR i
 PLUS +
 INTCON 1
+<无符号整数>
 <步长>
 RPARENT )
 DOTK do
@@ -866,6 +891,7 @@ INTCON 0
 <表达式>
 <条件>
 RPARENT )
+SEMICN ;
 <语句>
 <循环语句>
 <语句>
@@ -915,6 +941,7 @@ ASSIGN =
 IDENFR i
 PLUS +
 INTCON 1
+<无符号整数>
 <步长>
 RPARENT )
 PRINTFTK printf
@@ -929,6 +956,7 @@ SEMICN ;
 <语句>
 <语句列>
 <复合语句>
+RBRACE }
 <无返回值函数定义>
 VOIDTK void
 IDENFR test_condition
@@ -965,6 +993,7 @@ INTCON 0
 SEMICN ;
 <常量说明>
 IFTK if
+LPARENT (
 IDENFR int_0
 <因子>
 <项>
@@ -991,6 +1020,7 @@ RBRACE }
 <条件语句>
 <语句>
 IFTK if
+LPARENT (
 IDENFR int_0
 <因子>
 <项>
@@ -1013,6 +1043,7 @@ RBRACE }
 <条件语句>
 <语句>
 IFTK if
+LPARENT (
 IDENFR int_1
 <因子>
 <项>
@@ -1039,6 +1070,7 @@ RBRACE }
 <条件语句>
 <语句>
 IFTK if
+LPARENT (
 IDENFR int_1
 <因子>
 <项>
@@ -1066,6 +1098,7 @@ RBRACE }
 <语句>
 <语句列>
 <复合语句>
+RBRACE }
 <无返回值函数定义>
 VOIDTK void
 MAINTK main

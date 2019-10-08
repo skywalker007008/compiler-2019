@@ -57,6 +57,7 @@ SEMICN ;
 <常量说明>
 CHARTK char
 IDENFR a
+COMMA ,
 IDENFR global_a
 <变量定义>
 SEMICN ;
@@ -64,6 +65,7 @@ CHARTK char
 IDENFR str
 LBRACK [
 INTCON 10
+<无符号整数>
 RBRACK ]
 <变量定义>
 SEMICN ;
@@ -75,10 +77,13 @@ INTTK int
 IDENFR array_fib
 LBRACK [
 INTCON 10
+<无符号整数>
 RBRACK ]
+COMMA ,
 IDENFR array_right
 LBRACK [
 INTCON 10
+<无符号整数>
 RBRACK ]
 <变量定义>
 SEMICN ;
@@ -108,6 +113,7 @@ SEMICN ;
 <语句>
 <语句列>
 <复合语句>
+RBRACE }
 <无返回值函数定义>
 INTTK int
 IDENFR char_to_int
@@ -164,6 +170,7 @@ SEMICN ;
 <语句>
 <语句列>
 <复合语句>
+RBRACE }
 <无返回值函数定义>
 VOIDTK void
 IDENFR print_plus
@@ -183,6 +190,7 @@ SEMICN ;
 <语句>
 <语句列>
 <复合语句>
+RBRACE }
 <无返回值函数定义>
 VOIDTK void
 IDENFR print_sub
@@ -200,6 +208,7 @@ SEMICN ;
 <语句>
 <语句列>
 <复合语句>
+RBRACE }
 <无返回值函数定义>
 VOIDTK void
 IDENFR null_func
@@ -207,12 +216,17 @@ LPARENT (
 <参数表>
 RPARENT )
 LBRACE {
+SEMICN ;
 <语句>
+SEMICN ;
 <语句>
+SEMICN ;
 <语句>
+SEMICN ;
 <语句>
 <语句列>
 <复合语句>
+RBRACE }
 <无返回值函数定义>
 INTTK int
 IDENFR fib
@@ -224,6 +238,7 @@ IDENFR n
 RPARENT )
 LBRACE {
 IFTK if
+LPARENT (
 IDENFR n
 <因子>
 <项>
@@ -253,7 +268,9 @@ SEMICN ;
 <语句列>
 RBRACE }
 <语句>
+ELSETK else
 IFTK if
+LPARENT (
 IDENFR n
 <因子>
 <项>
@@ -283,7 +300,9 @@ SEMICN ;
 <语句列>
 RBRACE }
 <语句>
+ELSETK else
 LBRACE {
+SEMICN ;
 <语句>
 <语句列>
 RBRACE }
@@ -394,6 +413,7 @@ ASSIGN =
 IDENFR i
 PLUS +
 INTCON 1
+<无符号整数>
 <步长>
 RPARENT )
 IDENFR array_fib
@@ -455,10 +475,13 @@ ASSIGN =
 IDENFR i
 PLUS +
 INTCON 1
+<无符号整数>
 <步长>
 RPARENT )
 IFTK if
+LPARENT (
 IDENFR array_fib
+LBRACK [
 IDENFR i
 <因子>
 <项>
@@ -469,6 +492,7 @@ RBRACK ]
 <表达式>
 NEQ !=
 IDENFR array_right
+LBRACK [
 IDENFR i
 <因子>
 <项>
@@ -574,6 +598,7 @@ INTCON 2
 SEMICN ;
 <语句>
 IFTK if
+LPARENT (
 INTCON 0
 <无符号整数>
 <整数>
@@ -583,12 +608,15 @@ INTCON 0
 <条件>
 RPARENT )
 LBRACE {
+SEMICN ;
 <语句>
 <语句列>
 RBRACE }
 <语句>
+ELSETK else
 LBRACE {
 IFTK if
+LPARENT (
 INTCON 1
 <无符号整数>
 <整数>
@@ -597,6 +625,7 @@ INTCON 1
 <表达式>
 <条件>
 RPARENT )
+SEMICN ;
 <语句>
 <条件语句>
 <语句>
@@ -653,6 +682,7 @@ IDENFR i
 RBRACK ]
 ASSIGN =
 IDENFR array_right
+LBRACK [
 IDENFR i
 <因子>
 <项>
@@ -668,6 +698,7 @@ RBRACK ]
 <项>
 PLUS +
 IDENFR array_right
+LBRACK [
 LPARENT (
 IDENFR i
 <因子>
@@ -709,6 +740,7 @@ RPARENT )
 <语句>
 <语句列>
 <复合语句>
+RBRACE }
 <无返回值函数定义>
 VOIDTK void
 IDENFR test_scanf
@@ -733,23 +765,43 @@ IDENFR int_3
 <变量定义>
 SEMICN ;
 <变量说明>
+SCANFTK scanf
+LPARENT (
+IDENFR alpha_a
+RPARENT )
 <读语句>
 SEMICN ;
 <语句>
+SCANFTK scanf
+LPARENT (
+IDENFR int_100
 COMMA ,
+IDENFR int_3
+RPARENT )
 <读语句>
 SEMICN ;
 <语句>
+SCANFTK scanf
+LPARENT (
+IDENFR int_100
 COMMA ,
+IDENFR alpha_b
+RPARENT )
 <读语句>
 SEMICN ;
 <语句>
+SCANFTK scanf
+LPARENT (
+IDENFR alpha_a
 COMMA ,
+IDENFR alpha_b
+RPARENT )
 <读语句>
 SEMICN ;
 <语句>
 <语句列>
 <复合语句>
+RBRACE }
 <无返回值函数定义>
 VOIDTK void
 MAINTK main
@@ -842,6 +894,7 @@ RPARENT )
 SEMICN ;
 <语句>
 IFTK if
+LPARENT (
 IDENFR result
 <因子>
 <项>
@@ -863,6 +916,7 @@ RPARENT )
 <写语句>
 SEMICN ;
 <语句>
+ELSETK else
 PRINTFTK printf
 LPARENT (
 STRCON fib error

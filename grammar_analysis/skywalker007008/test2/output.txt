@@ -1,5 +1,6 @@
 INTTK int
 IDENFR max_num
+COMMA ,
 IDENFR min_num
 <变量定义>
 SEMICN ;
@@ -7,6 +8,7 @@ INTTK int
 IDENFR num_list
 LBRACK [
 INTCON 20
+<无符号整数>
 RBRACK ]
 <变量定义>
 SEMICN ;
@@ -238,6 +240,7 @@ INTCON 30
 SEMICN ;
 <常量说明>
 IFTK if
+LPARENT (
 IDENFR int_1
 <因子>
 <项>
@@ -277,6 +280,7 @@ SEMICN ;
 <条件语句>
 <语句>
 IFTK if
+LPARENT (
 IDENFR int_1
 <因子>
 <项>
@@ -316,6 +320,7 @@ SEMICN ;
 <条件语句>
 <语句>
 IFTK if
+LPARENT (
 IDENFR int_1
 <因子>
 MULT *
@@ -354,6 +359,7 @@ SEMICN ;
 <条件语句>
 <语句>
 IFTK if
+LPARENT (
 IDENFR int_1
 <因子>
 DIV /
@@ -392,6 +398,7 @@ SEMICN ;
 <条件语句>
 <语句>
 IFTK if
+LPARENT (
 MINU -
 IDENFR int_1
 <因子>
@@ -412,6 +419,7 @@ RPARENT )
 <表达式>
 <条件>
 RPARENT )
+SEMICN ;
 <语句>
 <条件语句>
 <语句>
@@ -425,6 +433,7 @@ SEMICN ;
 <语句>
 <语句列>
 <复合语句>
+RBRACE }
 <无返回值函数定义>
 VOIDTK void
 IDENFR test_factor
@@ -688,6 +697,7 @@ SEMICN ;
 <语句>
 <语句列>
 <复合语句>
+RBRACE }
 <无返回值函数定义>
 VOIDTK void
 IDENFR test_state
@@ -839,6 +849,7 @@ SEMICN ;
 <语句>
 <语句列>
 <复合语句>
+RBRACE }
 <无返回值函数定义>
 VOIDTK void
 IDENFR test_item
@@ -869,7 +880,9 @@ IDENFR test
 <变量定义>
 SEMICN ;
 <变量说明>
+SEMICN ;
 <语句>
+SEMICN ;
 <语句>
 IDENFR pos_5
 ASSIGN =
@@ -1138,6 +1151,7 @@ SEMICN ;
 <语句>
 <语句列>
 <复合语句>
+RBRACE }
 <无返回值函数定义>
 VOIDTK void
 MAINTK main
