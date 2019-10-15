@@ -1,0 +1,18 @@
+VOIDTK void
+MAINTK main
+LPARENT (
+RPARENT )
+LBRACE {
+PRINTFTK printf
+LPARENT (
+STRCON 123
+<×Ö·û´®>
+RPARENT )
+<Ð´Óï¾ä>
+SEMICN ;
+<Óï¾ä>
+<Óï¾äÁÐ>
+<¸´ºÏÓï¾ä>
+RBRACE }
+<Ö÷º¯Êý>
+<³ÌÐò>

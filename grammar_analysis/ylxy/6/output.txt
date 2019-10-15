@@ -1,0 +1,101 @@
+CONSTTK const
+INTTK int
+IDENFR const_int_0_1
+ASSIGN =
+INTCON 0
+<无符号整数>
+<整数>
+COMMA ,
+IDENFR const_int_0_2
+ASSIGN =
+PLUS +
+INTCON 0
+<无符号整数>
+<整数>
+COMMA ,
+IDENFR const_int_0_3
+ASSIGN =
+MINU -
+INTCON 0
+<无符号整数>
+<整数>
+<常量定义>
+SEMICN ;
+CONSTTK const
+INTTK int
+IDENFR Const_int_1
+ASSIGN =
+INTCON 295
+<无符号整数>
+<整数>
+COMMA ,
+IDENFR const_int_2
+ASSIGN =
+PLUS +
+INTCON 3
+<无符号整数>
+<整数>
+COMMA ,
+IDENFR const_int_3
+ASSIGN =
+MINU -
+INTCON 15
+<无符号整数>
+<整数>
+<常量定义>
+SEMICN ;
+CONSTTK const
+CHARTK char
+IDENFR const_char_1
+ASSIGN =
+CHARCON _
+COMMA ,
+IDENFR const_char_2
+ASSIGN =
+CHARCON +
+COMMA ,
+IDENFR const_char_3
+ASSIGN =
+CHARCON *
+<常量定义>
+SEMICN ;
+CONSTTK const
+CHARTK char
+IDENFR Const_char_4
+ASSIGN =
+CHARCON a
+COMMA ,
+IDENFR const_char_5
+ASSIGN =
+CHARCON B
+COMMA ,
+IDENFR const_char_6
+ASSIGN =
+CHARCON 9
+COMMA ,
+IDENFR const_char_7
+ASSIGN =
+CHARCON 0
+<常量定义>
+SEMICN ;
+<常量说明>
+VOIDTK void
+MAINTK main
+LPARENT (
+RPARENT )
+LBRACE {
+PRINTFTK printf
+LPARENT (
+IDENFR Const_int_1
+<因子>
+<项>
+<表达式>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+<语句列>
+<复合语句>
+RBRACE }
+<主函数>
+<程序>

@@ -1,0 +1,381 @@
+CONSTTK const
+INTTK int
+IDENFR const_int_0_1
+ASSIGN =
+INTCON 0
+<无符号整数>
+<整数>
+COMMA ,
+IDENFR const_int_0_2
+ASSIGN =
+PLUS +
+INTCON 0
+<无符号整数>
+<整数>
+COMMA ,
+IDENFR const_int_0_3
+ASSIGN =
+MINU -
+INTCON 0
+<无符号整数>
+<整数>
+<常量定义>
+SEMICN ;
+CONSTTK const
+INTTK int
+IDENFR Const_int_1
+ASSIGN =
+INTCON 295
+<无符号整数>
+<整数>
+COMMA ,
+IDENFR const_int_2
+ASSIGN =
+PLUS +
+INTCON 3
+<无符号整数>
+<整数>
+COMMA ,
+IDENFR const_int_3
+ASSIGN =
+MINU -
+INTCON 15
+<无符号整数>
+<整数>
+<常量定义>
+SEMICN ;
+CONSTTK const
+CHARTK char
+IDENFR const_char_1
+ASSIGN =
+CHARCON _
+COMMA ,
+IDENFR const_char_2
+ASSIGN =
+CHARCON +
+COMMA ,
+IDENFR const_char_3
+ASSIGN =
+CHARCON *
+<常量定义>
+SEMICN ;
+CONSTTK const
+CHARTK char
+IDENFR Const_char_4
+ASSIGN =
+CHARCON a
+COMMA ,
+IDENFR const_char_5
+ASSIGN =
+CHARCON B
+COMMA ,
+IDENFR const_char_6
+ASSIGN =
+CHARCON 9
+COMMA ,
+IDENFR const_char_7
+ASSIGN =
+CHARCON 0
+<常量定义>
+SEMICN ;
+<常量说明>
+INTTK int
+IDENFR var_int1
+<变量定义>
+SEMICN ;
+CHARTK char
+IDENFR var_char1
+<变量定义>
+SEMICN ;
+INTTK int
+IDENFR array_int
+LBRACK [
+INTCON 1
+<无符号整数>
+RBRACK ]
+<变量定义>
+SEMICN ;
+CHARTK char
+IDENFR array_char
+LBRACK [
+INTCON 1
+<无符号整数>
+RBRACK ]
+<变量定义>
+SEMICN ;
+<变量说明>
+INTTK int
+IDENFR fun1
+<声明头部>
+LPARENT (
+INTTK int
+IDENFR a
+COMMA ,
+CHARTK char
+IDENFR b
+<参数表>
+RPARENT )
+LBRACE {
+CONSTTK const
+INTTK int
+IDENFR c
+ASSIGN =
+INTCON 9
+<无符号整数>
+<整数>
+<常量定义>
+SEMICN ;
+CONSTTK const
+CHARTK char
+IDENFR d
+ASSIGN =
+CHARCON d
+<常量定义>
+SEMICN ;
+<常量说明>
+INTTK int
+IDENFR e
+<变量定义>
+SEMICN ;
+CHARTK char
+IDENFR f
+<变量定义>
+SEMICN ;
+<变量说明>
+IDENFR var_int1
+ASSIGN =
+IDENFR const_int_0_1
+<因子>
+MULT *
+IDENFR const_int_0_1
+<因子>
+<项>
+MINU -
+LPARENT (
+IDENFR const_int_0_2
+<因子>
+DIV /
+IDENFR const_int_2
+<因子>
+<项>
+<表达式>
+RPARENT )
+<因子>
+MULT *
+IDENFR const_int_0_3
+<因子>
+<项>
+PLUS +
+IDENFR const_int_3
+<因子>
+<项>
+<表达式>
+<赋值语句>
+SEMICN ;
+<语句>
+IDENFR var_char1
+ASSIGN =
+CHARCON a
+<因子>
+<项>
+<表达式>
+<赋值语句>
+SEMICN ;
+<语句>
+IDENFR var_char1
+ASSIGN =
+IDENFR const_char_1
+<因子>
+<项>
+<表达式>
+<赋值语句>
+SEMICN ;
+<语句>
+PRINTFTK printf
+LPARENT (
+STRCON printf1
+<字符串>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+PRINTFTK printf
+LPARENT (
+MINU -
+IDENFR a
+<因子>
+MULT *
+IDENFR b
+<因子>
+<项>
+PLUS +
+IDENFR b
+<因子>
+DIV /
+IDENFR a
+<因子>
+<项>
+<表达式>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+PRINTFTK printf
+LPARENT (
+STRCON printf3
+<字符串>
+COMMA ,
+IDENFR a
+<因子>
+MULT *
+IDENFR a
+<因子>
+<项>
+MINU -
+IDENFR b
+<因子>
+MULT *
+IDENFR b
+<因子>
+<项>
+<表达式>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+PRINTFTK printf
+LPARENT (
+IDENFR d
+<因子>
+<项>
+<表达式>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+PRINTFTK printf
+LPARENT (
+IDENFR c
+<因子>
+<项>
+<表达式>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+PRINTFTK printf
+LPARENT (
+STRCON  
+<字符串>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+PRINTFTK printf
+LPARENT (
+STRCON 
+<字符串>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+RETURNTK return
+LPARENT (
+INTCON 1
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+RPARENT )
+<返回语句>
+SEMICN ;
+<语句>
+<语句列>
+<复合语句>
+RBRACE }
+<有返回值函数定义>
+CHARTK char
+IDENFR fun2
+<声明头部>
+LPARENT (
+<参数表>
+RPARENT )
+LBRACE {
+RETURNTK return
+LPARENT (
+CHARCON a
+<因子>
+<项>
+<表达式>
+RPARENT )
+<返回语句>
+SEMICN ;
+<语句>
+<语句列>
+<复合语句>
+RBRACE }
+<有返回值函数定义>
+VOIDTK void
+MAINTK main
+LPARENT (
+RPARENT )
+LBRACE {
+INTTK int
+IDENFR a
+<变量定义>
+SEMICN ;
+CHARTK char
+IDENFR b
+<变量定义>
+SEMICN ;
+<变量说明>
+IDENFR a
+ASSIGN =
+INTCON 5
+<无符号整数>
+<整数>
+<因子>
+<项>
+<表达式>
+<赋值语句>
+SEMICN ;
+<语句>
+IDENFR b
+ASSIGN =
+CHARCON b
+<因子>
+<项>
+<表达式>
+<赋值语句>
+SEMICN ;
+<语句>
+PRINTFTK printf
+LPARENT (
+STRCON 123
+<字符串>
+RPARENT )
+<写语句>
+SEMICN ;
+<语句>
+IDENFR fun1
+LPARENT (
+IDENFR a
+<因子>
+<项>
+<表达式>
+COMMA ,
+IDENFR b
+<因子>
+<项>
+<表达式>
+<值参数表>
+RPARENT )
+<有返回值函数调用语句>
+SEMICN ;
+<语句>
+<语句列>
+<复合语句>
+RBRACE }
+<主函数>
+<程序>
