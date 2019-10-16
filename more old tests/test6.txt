@@ -17,7 +17,7 @@ void ff3(int a,int b,char c,int d,char e,char f){
     return ;
 }
 
-void ff4()(){
+void ff4(){
     printf("_ff4()_");
     
 }
@@ -107,7 +107,7 @@ void main(){
         if(t8+t6+t7 != 12)
             printf("error7");
         
-        iF( 3 > 5 )
+        if( 3 > 5 )
             printf("error8");
         T9 = 9;
         c3 = '3';
