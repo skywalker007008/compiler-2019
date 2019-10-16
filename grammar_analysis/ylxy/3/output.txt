@@ -316,7 +316,6 @@ LPARENT (
 <参数表>
 RPARENT )
 LBRACE {
-RBRACE }
 <语句列>
 <复合语句>
 RBRACE }
@@ -914,28 +913,28 @@ IDENFR fun3_empty
 LPARENT (
 <值参数表>
 RPARENT )
-<有返回值函数调用语句>
+<无返回值函数调用语句>
 SEMICN ;
 <语句>
 IDENFR fun4_while
 LPARENT (
 <值参数表>
 RPARENT )
-<有返回值函数调用语句>
+<无返回值函数调用语句>
 SEMICN ;
 <语句>
 IDENFR fun5_do_while
 LPARENT (
 <值参数表>
 RPARENT )
-<有返回值函数调用语句>
+<无返回值函数调用语句>
 SEMICN ;
 <语句>
 IDENFR fun6_for
 LPARENT (
 <值参数表>
 RPARENT )
-<有返回值函数调用语句>
+<无返回值函数调用语句>
 SEMICN ;
 <语句>
 IDENFR fun_8
