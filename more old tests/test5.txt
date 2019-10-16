@@ -3,7 +3,7 @@ const int a10=10,a20=+20,a30=-30;
 const char adder='+';
 const char pluser='*',number='8',letter='a';
 
-int var2,var3,varray[010];
+int var2,var3,varray[10];
 char var5,var6,varraychar[20];
 int var1;
 char var4;

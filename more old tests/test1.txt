@@ -1,5 +1,5 @@
 const int zero = 0;
-const int one = 1, minus_two = -0002;
+const int one = 1, minus_two = -2;
 const char renn = '0';
 const char first_alpha = 'a', first_captical = 'A';
 int yyy[7],xxxx, x, zzzzzzz;
@@ -27,7 +27,7 @@ char fun2(int a, int b, int c, int d, int e, int f)
 
 void main()
 {
-	const int b =+01, c=2, d=3, e=4;
+	const int b =+1, c=2, d=3, e=4;
 	char ar[2];
 	int r, m1[8];
 	int aa, a;

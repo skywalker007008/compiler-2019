@@ -59,7 +59,7 @@ void main(){
     int _c4,i;
     char _t1;
     int t_array2[100];
-    char c_array2[0100];
+    char c_array2[100];
     
     scanf(in_1);
     
@@ -122,7 +122,7 @@ void main(){
         t_array1[0] = 2333;
         c_array1[0] = '/';
         
-        t10 = ( -007 + +009 );  
+        t10 = ( -7 + +9 );  
         
         c5 = '+';                 
         c6 = c5;                

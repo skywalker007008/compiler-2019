@@ -212,7 +212,7 @@ void Test_Compound_Empty() {
 
 }
 
-void Test_Compound_NoConstDecl {
+void Test_Compound_NoConstDecl() {
   int IntVariable;
   printf(IntVariable);
 }
